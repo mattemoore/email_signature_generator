@@ -139,11 +139,9 @@ function calculateWinner(squares: Array<string | null>): string | null {
       squares[a] === squares[b] &&
       squares[a] === squares[c]
     ) {
-      console.log(squares[a]);
       return squares[a];
     }
   }
-  console.log('null');
   return null;
 }
 
